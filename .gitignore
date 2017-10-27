@@ -4,3 +4,4 @@
 *.m64
 .binaries
 ms2inst.bat
+cmake-3.9.4-win64-x64
