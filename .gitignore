@@ -1,0 +1,6 @@
+*.c32
+*.c64
+*.m32
+*.m64
+.binaries
+ms2inst.bat
