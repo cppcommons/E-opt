@@ -8,6 +8,7 @@ set MSYS2_PKGS=vim
 set MSYS2_PKGS=%MSYS2_PKGS%,  emacs,glib2,libhogweed
 set MSYS2_PKGS=%MSYS2_PKGS%,  mingw-w64-i686-binutils
 set MSYS2_PKGS=%MSYS2_PKGS%,  mingw-w64-i686-gcc
+set MSYS2_PKGS=%MSYS2_PKGS%,  mingw-w64-i686-gdb
 set MSYS2_PKGS=%MSYS2_PKGS%,  mingw-w64-i686-make
 set MSYS2_PKGS=%MSYS2_PKGS%,  mingw32/mingw-w64-i686-qt5
 set MSYS2_PKGS=%MSYS2_PKGS%,  mingw32/mingw-w64-i686-qt5-static
