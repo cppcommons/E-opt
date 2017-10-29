@@ -4,7 +4,7 @@ setlocal
 REM --- EDIT THIS PART(START) ---
 set MSYS2_NAME=opt
 set MSYS2_BITS=32
-set MSYS2_PKGS=vim
+set MSYS2_PKGS=diffutils,man-db,procps,psmisc,tmux-git,vim
 set MSYS2_PKGS=%MSYS2_PKGS%,  emacs,glib2,libhogweed
 set MSYS2_PKGS=%MSYS2_PKGS%,  mingw-w64-i686-binutils
 set MSYS2_PKGS=%MSYS2_PKGS%,  mingw-w64-i686-gcc
@@ -15,6 +15,7 @@ set MSYS2_PKGS=%MSYS2_PKGS%,  mingw32/mingw-w64-i686-qt5-static
 set MSYS2_PKGS=%MSYS2_PKGS%,  mingw32/mingw-w64-i686-qt-creator
 set MSYS2_PKGS=%MSYS2_PKGS%,  mingw-w64-i686-boost
 set MSYS2_PKGS=%MSYS2_PKGS%,  mingw-w64-i686-libarchive
+set MSYS2_PKGS=%MSYS2_PKGS%,  mingw-w64-i686-premake
 
 set MSYS2_USE_MINGW32=1
 ::set MSYS2_USE_MINGW64=1
