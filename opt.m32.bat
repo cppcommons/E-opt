@@ -16,10 +16,13 @@ set MSYS2_PKGS=%MSYS2_PKGS%,  mingw32/mingw-w64-i686-qt-creator
 set MSYS2_PKGS=%MSYS2_PKGS%,  mingw-w64-i686-boost
 set MSYS2_PKGS=%MSYS2_PKGS%,  mingw-w64-i686-libarchive
 set MSYS2_PKGS=%MSYS2_PKGS%,  mingw-w64-i686-premake
+set MSYS2_PKGS=%MSYS2_PKGS%,  subversion
+set MSYS2_PKGS=%MSYS2_PKGS%,  gcc
+set MSYS2_PKGS=%MSYS2_PKGS%,  apr-devel
 
 set MSYS2_USE_MINGW32=1
 ::set MSYS2_USE_MINGW64=1
-::set MSYS2_USE_MSYS=1
+set MSYS2_USE_MSYS=1
 set DT_ICONS=1
 set MSYS2_HOME=.$
 ::set MSYS2_ASIS=1
